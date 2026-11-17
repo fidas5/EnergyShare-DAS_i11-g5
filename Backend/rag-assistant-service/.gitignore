@@ -1,0 +1,70 @@
+
+# ==========================================
+# EnergyShare - RAG Assistant Service
+# ==========================================
+
+# Python virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# ChromaDB vector database
+chroma_db/
+chroma_export/
+db/
+
+# Hugging Face / ML cache
+.cache/
+huggingface/
+models_cache/
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+
+# Testing and coverage
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# IDE files
+.vscode/
+.idea/
+*.iml
+
+# Windows files
+Thumbs.db
+Desktop.ini
+
+# macOS files
+.DS_Store
+
+# Local databases
+*.sqlite
+*.sqlite3
+*.db
