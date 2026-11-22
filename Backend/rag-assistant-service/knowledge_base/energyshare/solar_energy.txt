@@ -1,0 +1,26 @@
+
+Solar Energy and Household Consumption
+
+Solar photovoltaic panels convert sunlight
+into electrical energy.
+
+A household may produce more electricity than
+it consumes during certain periods.
+
+Energy surplus can be estimated as:
+Surplus (kWh) = Production (kWh) - Consumption (kWh)
+
+When the result is negative, there is no positive
+surplus available.
+
+EnergyShare records household energy readings and
+calculates declared surplus values.
+
+These readings are provided by users in the initial
+prototype rather than collected from physical
+smart meters.
+
+Energy efficiency suggestions include shifting
+flexible electricity usage toward periods of
+higher solar production.
+    
