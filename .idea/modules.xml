@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/EnergyShare.iml" filepath="$PROJECT_DIR$/.idea/EnergyShare.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Backend/microservices/energy-monitoring-service/energy-monitoring-service.iml" filepath="$PROJECT_DIR$/Backend/microservices/energy-monitoring-service/energy-monitoring-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Backend/eureka-server/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/Backend/eureka-server/eureka-server/eureka-server.iml" />
     </modules>
   </component>
 </project>

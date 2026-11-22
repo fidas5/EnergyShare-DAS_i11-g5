@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ProjectRootManager" version="2">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/Backend/eureka-server/eureka-server/pom.xml" />
+        <option value="$PROJECT_DIR$/Backend/microservices/energy-marketplace-service/pom.xml" />
+        <option value="$PROJECT_DIR$/Backend/microservices/energy-monitoring-service/pom.xml" />
+        <option value="$PROJECT_DIR$/Backend/microservices/energy-transaction-service/pom.xml" />
+        <option value="$PROJECT_DIR$/Backend/microservices/user-household-service/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" project-jdk-name="17" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>
