@@ -1,0 +1,9 @@
+{
+  "total_chunks": 6,
+  "unique_ids": 6,
+  "projects": {
+    "energyshare": 6
+  },
+  "embedding_model": "all-MiniLM-L6-v2",
+  "collection": "energyshare_kb"
+}
