@@ -1,0 +1,86 @@
+{
+  "export_date": "2026-11-16T21:49:41.248918",
+  "statistics": {
+    "total_chunks": 6,
+    "unique_ids": 6,
+    "projects": {
+      "energyshare": 6
+    },
+    "embedding_model": "all-MiniLM-L6-v2",
+    "collection": "energyshare_kb"
+  },
+  "documents": [
+    {
+      "id": "d89d6d78a089cb8a733755d602a53c3c6433eea954d454efd28ab042353f5990",
+      "content": "# EnergyShare Energy Marketplace\n\nThe Energy Marketplace Service is responsible\nfor publishing solar energy surplus offers\nand managing consumer requests.\n\nProducers publish offers containing the available\nenergy quantity in kWh, price per kWh, location\nzone, and availability period.\n\nConsumers can browse available offers and\nrequest an energy reservation.\n\nThe marketplace validates available surplus\nthrough the Energy Monitoring Service using\nsynchronous OpenFeign communication.",
+      "metadata": {
+        "category": "energy_marketplace",
+        "chunk_index": 0,
+        "embedding_model": "all-MiniLM-L6-v2",
+        "file_type": ".md",
+        "source": "energyshare/energy_marketplace.md",
+        "project": "energyshare"
+      }
+    },
+    {
+      "id": "259f7195539daedb22c01bc418c1dd71329752839155e3f070036b25971212ba",
+      "content": "When a reservation is created, the Marketplace\nService can publish a RabbitMQ event for the\nEnergy Transaction Service.\n\nTransactions and payments are simulated in\nthe EnergyShare prototype.\n\nThe marketplace uses Spring Boot and MongoDB.",
+      "metadata": {
+        "category": "energy_marketplace",
+        "embedding_model": "all-MiniLM-L6-v2",
+        "source": "energyshare/energy_marketplace.md",
+        "project": "energyshare",
+        "chunk_index": 1,
+        "file_type": ".md"
+      }
+    },
+    {
+      "id": "720434ce6c67c3afa46070ae9caf16b2ce750d550afdee22d4a74cb854842a29",
+      "content": "# EnergyShare Project Overview\n\nEnergyShare is a prototype web platform designed\nfor Tunisian households that produce or consume\nsolar energy.\n\nThe project is motivated by electricity supply\nchallenges, including summer power interruptions\nin Tunisia.\n\nHouseholds can record solar production and\nelectricity consumption, calculate energy surplus,\nand participate in simulated energy exchanges.\n\nEnergyShare does not physically transfer electricity\nor process real payments.",
+      "metadata": {
+        "source": "energyshare/project_overview.md",
+        "chunk_index": 2,
+        "project": "energyshare",
+        "embedding_model": "all-MiniLM-L6-v2",
+        "category": "project_overview",
+        "file_type": ".md"
+      }
+    },
+    {
+      "id": "dbcb4e6638ac41c27558c0a337fea4ec0451ec19226e3ef27b1beddf97f351eb",
+      "content": "The application uses React, an API Gateway,\nand independently deployed backend microservices.",
+      "metadata": {
+        "file_type": ".md",
+        "project": "energyshare",
+        "source": "energyshare/project_overview.md",
+        "embedding_model": "all-MiniLM-L6-v2",
+        "chunk_index": 3,
+        "category": "project_overview"
+      }
+    },
+    {
+      "id": "76df5eea62219a142a3b296d45a80197f87708962a830730a4e5ad89475cea4c",
+      "content": "Solar Energy and Household Consumption\n\nSolar photovoltaic panels convert sunlight\ninto electrical energy.\n\nA household may produce more electricity than\nit consumes during certain periods.\n\nEnergy surplus can be estimated as:\nSurplus (kWh) = Production (kWh) - Consumption (kWh)\n\nWhen the result is negative, there is no positive\nsurplus available.\n\nEnergyShare records household energy readings and\ncalculates declared surplus values.",
+      "metadata": {
+        "project": "energyshare",
+        "chunk_index": 4,
+        "category": "solar_energy",
+        "source": "energyshare/solar_energy.txt",
+        "file_type": ".txt",
+        "embedding_model": "all-MiniLM-L6-v2"
+      }
+    },
+    {
+      "id": "64c1b4082d6e0400c8cfd289bd56ade6b4e5ae6c2b8662d74cfa17b0ed2f9950",
+      "content": "These readings are provided by users in the initial\nprototype rather than collected from physical\nsmart meters.\n\nEnergy efficiency suggestions include shifting\nflexible electricity usage toward periods of\nhigher solar production.",
+      "metadata": {
+        "chunk_index": 5,
+        "file_type": ".txt",
+        "category": "solar_energy",
+        "embedding_model": "all-MiniLM-L6-v2",
+        "source": "energyshare/solar_energy.txt",
+        "project": "energyshare"
+      }
+    }
+  ]
+}
