@@ -19,7 +19,7 @@ __pycache__/
 
 # Environment variables and secrets
 .env
-.env.*
+.env.example
 !.env.example
 
 # ChromaDB vector database
