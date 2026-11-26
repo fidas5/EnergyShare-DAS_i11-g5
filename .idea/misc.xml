@@ -6,6 +6,8 @@
       <list>
         <option value="$PROJECT_DIR$/Backend/eureka-server/eureka-server/pom.xml" />
         <option value="$PROJECT_DIR$/Backend/microservices/energy-marketplace-service/pom.xml" />
+        <option value="$PROJECT_DIR$/Backend/api-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/Backend/microservices/energy-monitoring-service/pom.xml" />
       </list>
     </option>
   </component>
